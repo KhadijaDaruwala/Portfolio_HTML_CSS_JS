@@ -81,3 +81,18 @@ body{
     width: 50%;
     margin-bottom: 20px;
 }
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    color: transparent;
+    font-weight: bold;
+}
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
